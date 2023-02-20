@@ -13,7 +13,7 @@ const AnimGrid = () => {
                 </p>
             </div>
             <Row>
-                <Col xl={true} className="mt-3">
+                <Col lg={true} className="mt-3">
                     <div className="h-100 p-5 rounded-3" style={{
                         backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fsunsetgif.gif?alt=media&token=abef48ef-4844-4a0b-9dfc-f47216cc30d8')",
                         backgroundSize: "cover"
@@ -24,7 +24,7 @@ const AnimGrid = () => {
                     </div>
                 </Col>
 
-                <Col xl={true} className="mt-3">
+                <Col lg={true} className="mt-3">
                     <div className="h-100 p-5 rounded-3" style={{
                         backgroundImage:
                             "url('https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fsunrisegif.gif?alt=media&token=50645def-53fc-4a3b-bf8e-82019c92c6d3')",
