@@ -8,7 +8,6 @@ const images = [
     "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fpolarbearimage.jpg?alt=media&token=f2e81e2a-05e8-44da-bfbe-1ae6fe9e050b",
     "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fblueyellowtiger.jpg?alt=media&token=96b52a51-e687-49be-8143-8df0addcf83e",
     "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fpugdogwhite.jpg?alt=media&token=8c39c92c-97ba-45e0-b543-bbb5a661d6f5",
-
 ]
 
 const ImgGrid = () => {
@@ -63,9 +62,6 @@ const ImgGrid = () => {
                     />
                 </div>
             </Row>
-
-
-
         </Container>
     );
 }

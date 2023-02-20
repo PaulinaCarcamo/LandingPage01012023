@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,9 +15,8 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="ms-3 me-auto my-2 my-lg-0 "
+              className="ms-3 me-auto mb-4 my-lg-0 "
               style={{ maxHeight: "100px" }}
-              navbarScroll
             >
               <Nav.Link href="#" className="link-light">About</Nav.Link>
               <Nav.Link href="#" className="link-light">Store</Nav.Link>
@@ -56,16 +54,7 @@ const Navigation = () => {
         <Nav.Item>
           <Nav.Link href="#" className="link-light">Surreal</Nav.Link>
         </Nav.Item>
-
       </Nav>
-
-
-
-
-
-
-
-
     </div>
   );
 }
