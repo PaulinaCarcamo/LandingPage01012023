@@ -1,5 +1,5 @@
 import { Col, Container } from 'react-bootstrap';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
 const images = [

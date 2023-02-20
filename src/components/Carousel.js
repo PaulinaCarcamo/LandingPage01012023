@@ -1,4 +1,4 @@
-import { Image } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 
@@ -47,7 +47,7 @@ const ImgCarousel = () => {
                     <Carousel.Caption>
                         <h3>Variety of picture libraries</h3>
                         <p>
-                        Incredible content and innovative work, all on one platform.
+                            Incredible content and innovative work, all on one platform.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

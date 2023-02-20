@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCameraRetro, faDove, faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 const Footer = () => {
     return (
@@ -13,8 +13,6 @@ const Footer = () => {
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Aquatic</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Wild life</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Livestock</a></li>
-
-
                         </ul>
                     </div>
 
@@ -24,8 +22,6 @@ const Footer = () => {
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Dessert</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Mountain</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Jungle</a></li>
-
-
                         </ul>
                     </div>
 
@@ -35,8 +31,6 @@ const Footer = () => {
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Dreams</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Historical</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Calligramme</a></li>
-
-
                         </ul>
                     </div>
 
@@ -47,7 +41,7 @@ const Footer = () => {
                             <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                                 <label for="newsletter1" className="visually-hidden">Email address</label>
                                 <input id="newsletter1" type="text" className="form-control w-50" placeholder="Email address" />
-                                <Button variant="secondary" style={{transition: "0.5s"}}>Subscribe</Button>
+                                <Button variant="secondary" style={{ transition: "0.5s" }}>Subscribe</Button>
                             </div>
                         </form>
                     </div>
@@ -56,12 +50,10 @@ const Footer = () => {
                 <div className="d-flex flex-column flex-sm-row justify-content-between px-5 py-4 my-4 mb-0 border-top border-dark border-2">
                     <p>&copy; 2022 Expert, Inc. All rights reserved.</p>
                     <ul className="list-unstyled d-flex">
-                        {/* <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><a href="#twitter" /></svg></a></li> */}
                         <li className="ms-3"><a href="#" className="text-light"><FontAwesomeIcon icon={faCameraRetro} /></a></li>
                         <li className="ms-3"><a href="#" className="text-light"><FontAwesomeIcon icon={faDove} /></a></li>
                         <li className="ms-3"><a href="#" className="text-light"><FontAwesomeIcon icon={faEnvelope} /></a> </li>
                         <li className="ms-3"><a href="#" className="text-light"><FontAwesomeIcon icon={faGlobe} /></a> </li>
-
                     </ul>
                 </div>
             </footer>
