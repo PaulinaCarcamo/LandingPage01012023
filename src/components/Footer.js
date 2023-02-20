@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button';
 const Footer = () => {
     return (
         <div style={{ backgroundColor: "#0000001a" }}>
-            <footer className="py-5 text-light mt-5">
-                <div className="row px-5">
-                    <div className="col-6 col-md-2 mb-3">
+            <div className="py-5 text-light mt-5">
+                <footer className="row px-5 m-0">
+                    <div className="col-6 col-lg-2 mb-3">
                         <h5>Animals</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Aquatic</a></li>
@@ -16,7 +16,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-6 col-md-2 mb-3">
+                    <div className="col-6 col-lg-2 mb-3">
                         <h5>Landscape</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Dessert</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-6 col-md-2 mb-3">
+                    <div className="col-6 col-lg-2 mb-3">
                         <h5>Surreal</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Dreams</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-md-5 offset-md-1 mb-3">
+                    <div className="col-md-5 offset-lg-1 mb-3">
                         <form>
                             <h5>Subscribe to our newsletter</h5>
                             <p>Monthly digest of what's new and exciting from us.</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                             </div>
                         </form>
                     </div>
-                </div>
+                </footer>
 
                 <div className="d-flex flex-column flex-sm-row justify-content-between px-5 py-4 my-4 mb-0 border-top border-dark border-2">
                     <p>&copy; 2022 Expert, Inc. All rights reserved.</p>
@@ -56,8 +56,12 @@ const Footer = () => {
                         <li className="ms-3"><a href="#" className="text-light"><FontAwesomeIcon icon={faGlobe} /></a> </li>
                     </ul>
                 </div>
-            </footer>
+            </div>
         </div>
+
+
+
+
     )
 };
 

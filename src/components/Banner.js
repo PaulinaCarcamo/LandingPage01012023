@@ -13,7 +13,6 @@ const Banner = () => {
             style={{
                 backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.200)), url('https://raw.githubusercontent.com/PaulinaCarcamo/LandingpageProject/main/images/jumbotronphotobg.jpg')",
                 backgroundSize: "cover",
-                backgroundPositionX: "center",
             }}>
 
             <Image className="my-3" height={150} src={images[0]} />

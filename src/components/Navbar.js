@@ -31,7 +31,7 @@ const Navigation = () => {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-light" style={{transition: "0.5s"}}>
+              <Button variant="outline-light" style={{ transition: "0.5s" }}>
                 <FontAwesomeIcon icon={faSearch} /></Button>
             </Form>
           </Navbar.Collapse>
