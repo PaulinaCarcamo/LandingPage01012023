@@ -17,7 +17,7 @@ const Banner = () => {
 
             <Image className="my-3" height={150} src={images[0]} />
 
-            <h1 className="display-5 fw-bold" style={{ textShadow: "#000 1px 0 10px" }}>Expert Photography</h1>
+            <h1 className="display-5 fw-bold" style={{ textShadow: "#000 1px 0 10px" }}>Enterprise Photography</h1>
             <Col className="col-lg-6 mx-auto">
                 <p className="lead mt-2 mb-4" style={{ textShadow: "#000 1px 0 10px" }}>
                     As the leading marketplace for art and photography by the world's emerging and established photographers, we've made it easy for new and experienced collectors to discover, acquire, and so much more. Everything you'll ever need to collect art and photography, you'll find here.

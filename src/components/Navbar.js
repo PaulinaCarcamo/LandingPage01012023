@@ -11,7 +11,7 @@ const Navigation = () => {
     <div>
       <Navbar expand="lg" className="py-2" style={{ backgroundColor: "#0000001a" }}>
         <Container fluid>
-          <Navbar.Brand href="#" className="logo m-0 text-light"><h2>Expert</h2></Navbar.Brand>
+          <Navbar.Brand href="#" className="logo m-0 text-light"><h2>Entrprs</h2></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
