@@ -3,9 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 
 const images = [
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fyellowcateyes.jpg?alt=media&token=f79954c8-539c-467d-a094-df74fc237560",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fmongoosethreefaces.jpg?alt=media&token=0343f858-8533-4e79-a188-864c776e16c9",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fowleyesface.jpg?alt=media&token=210a4361-7298-4e08-9d4c-0e76320ebb34"
+    "https://i.postimg.cc/rpgYqW2H/Hbscatv-LI.jpg",
+    "https://i.postimg.cc/TwK8SQ50/PKZmngooseop9-Z.jpg",
+    "https://i.postimg.cc/q7bVjWqg/oGowlRTl.jpg"
 ]
 
 const ImgCarousel = () => {

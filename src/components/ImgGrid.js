@@ -2,12 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 const images = [
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fbluedogbg.jpg?alt=media&token=2e1bd774-09fd-4dad-853f-c76b9b133c49",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fgreenreptile.jpg?alt=media&token=9cda26e5-41e1-4fd4-a056-919b9344543f",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fgiraffemoon.jpg?alt=media&token=4fb71eb1-c5f8-4807-8e0c-891ec8591249",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fpolarbearimage.jpg?alt=media&token=f2e81e2a-05e8-44da-bfbe-1ae6fe9e050b",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fblueyellowtiger.jpg?alt=media&token=96b52a51-e687-49be-8143-8df0addcf83e",
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fpugdogwhite.jpg?alt=media&token=8c39c92c-97ba-45e0-b543-bbb5a661d6f5",
+    "https://i.postimg.cc/Mp7FrNPq/do2dogeeb.jpg",
+    "https://i.postimg.cc/VkFcbJcq/m-PNreptv-O1.jpg",
+    "https://i.postimg.cc/hGK5Fs6x/b-A1lgiraffcvp5.jpg",
+    "https://i.postimg.cc/ZnvfPMvk/k-I3pbear-Lq9.jpg",
+    "https://i.postimg.cc/1tjCqQtc/dk6tigerhm.jpg",
+    "https://i.postimg.cc/hP7wVfVJ/9SBdogQC.jpg",
 ]
 
 const ImgGrid = () => {

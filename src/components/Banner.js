@@ -3,7 +3,7 @@ import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
 const images = [
-    "https://firebasestorage.googleapis.com/v0/b/testing-photo-upload.appspot.com/o/photography-images%2Fcameralogophoto.png?alt=media&token=4844f697-7a86-423f-b80b-4abfc1ebc434"
+    "https://i.postimg.cc/SNC4kZTt/mjvcamra224.png"
 ];
 
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
 
         <Container fluid className="py-5 text-center text-light"
             style={{
-                backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.200)), url('https://raw.githubusercontent.com/PaulinaCarcamo/LandingpageProject/main/images/jumbotronphotobg.jpg')",
+                backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.200)), url('https://i.postimg.cc/h4Jg349n/BQhors-CO25.jpg')",
                 backgroundSize: "cover",
             }}>
 
